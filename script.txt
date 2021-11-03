@@ -1,0 +1,15 @@
+#!/bin/bash
+
+cd Lesson_1
+
+mkdir L_1 L_2 L_3
+
+cd L_1
+
+touch f1.txt f2.txt f3.txt f4.json f5.json
+
+mkdir L_4 L_5 L_6
+
+ls -la
+
+mv f2.txt f3.txt L_6
